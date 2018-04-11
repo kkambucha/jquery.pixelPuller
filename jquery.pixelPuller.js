@@ -43,14 +43,6 @@
 
 		         if (!data) {
 
-		         	// catch params error
-		         	if (!urls.onclick && !urls.onvisible && !urls.ontrigger) {
-		         		console.group();
-		         		console.log('Не определены обязательные data-аттрибуты для');
-		         		console.log($this);
-		         		console.groupEnd();
-		         	}
-
 		            // catch repeats
 		            if (repetitionsArr.length) {
 		            	for (i = 0; i < repetitionsArr.length; i++) {
