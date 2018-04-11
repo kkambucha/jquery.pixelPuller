@@ -50,8 +50,11 @@ Optional data-attributes:
 
 
 **data-pixel-puller-onclick** - url of metric-pixel. Pixel will pull when user clicked the element.
+
 **data-pixel-puller-onvisible** - url of metric-pixel. Pixel will pull when element will be in the viewport
+
 **pixel-puller-ontrigger** - url of metric-pixel. Pixel will pull by trigger event on the element from javascript code. For example in sliders-callbacks and other plugins.
+
 **data-pixel-puller-repetition** - optional attribute. In this attribute may be string like "onclick onvisible" or "onclick" or something combinations. If this attribute has parameter (from that - onclick, onvisible, ontrigger) - pulling pixel will repeat on each event. False by default.
 
 # Using from other plugins
